@@ -1,0 +1,3 @@
+Options -Indexes
+# Let PHP see the "Authorization: Bearer <token>" header
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1

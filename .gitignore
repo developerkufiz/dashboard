@@ -1,0 +1,5 @@
+config/credentials.json
+uploads/*
+!uploads/.gitkeep
+!uploads/.htaccess
+*.log

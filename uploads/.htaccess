@@ -1,0 +1,8 @@
+# Uploaded files are never served or executed directly - only through api/files.php
+Require all denied
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+  php_flag engine off
+</IfModule>
